@@ -1,0 +1,15 @@
+{
+	"editor.tabSize": 2,
+	"workbench.colorCustomizations": {
+		"statusBar.background" : "#d1924b"
+	},
+	"search.exclude": {
+    "**/node_modules": true,
+    "**/.serverless": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/.log": true,
+    "yarn.lock": true
+  },
+	"files.eol": "\n"
+}

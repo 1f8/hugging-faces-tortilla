@@ -1,0 +1,20 @@
+{
+  "name": "@1f8/hugging-faces-tortilla",
+  "version": "1.0.0",
+  "description": "Wrapper library around Hugging Face's awesome API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "1F8 <hello@1f8.dev>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc && cp package.json dist/package.json && cp README.md dist/README.md"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9",
+    "axios": "^1.4.0",
+    "typescript": "^5.1.6"
+  }
+}
